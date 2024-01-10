@@ -1,0 +1,443 @@
+/* 
+  Template Name: Babu88
+  Template URI: https://
+  Author Name: 
+  Author URI: https://
+  Version: 1.0.0
+  Description: This is
+  Tags: html, Css, Bootstrap
+*/
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Default Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+body {  
+  font-size: 14px;
+	font-weight: 400;
+  font-family: 'Heebo', sans-serif;
+}
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+a,a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  width: 100%;
+}
+.btn1 {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* start header top css 
+*****************************/
+.header_top_area{
+  padding: 15px 0;
+  background: #fff;
+}
+.header_top_left img{
+  max-width: 312px;
+  margin: auto;
+}
+.header_top_right ul{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+.header_top_right ul li button{
+  border: none;
+}
+.header_top_right .lg_img{
+  width: 50px;
+}
+.header_top_right .btn_login{
+  min-width: 120px;
+  color: #ffeb3b;
+  background: #000;
+  transition: all 360ms ease;
+}
+.header_top_right .btn_login:hover{
+  color: #fddd04;
+}
+.header_top_right .btn_reg{
+  min-width: 156px;
+  color: #000;
+  background: #fddd04;
+  transition: all 360ms ease;
+}
+.header_top_right .btn_reg:hover{
+  background: #d6ba05;
+}
+/* start header bottom css 
+*****************************/
+.header_bottom_area{
+  padding: 15px 0;
+  background: #000;
+}
+.header_menu{
+  width: 100%;
+}
+.header_menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 32px;
+}
+.header_menu li a{
+  padding: 6px 10px;
+  color: #fddd04;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 360ms ease; 
+}
+.header_menu ul li a:hover{
+  color: #fff;
+  background: #9c9c9c1f;
+}
+.new_text{
+  position: relative;
+}
+.new_text::after {
+  content: 'NEW';
+  font-size: 8px;
+  color: #fff;
+  background: rgb(27, 183, 32);
+  position: relative;
+  top: -18px;
+  right: -2px;
+  padding: 7px 4px;
+  border-radius: 9px;
+}
+
+/* start modal language
+*****************************/
+.modal_heading{
+  font-size: 18px !important;
+  font-weight: 500;
+}
+.modal_lng img{
+  width: 44px;
+}
+.modal {
+  --bs-modal-padding: 1rem 2.8rem 4rem 2.8rem;
+  --bs-modal-bg: #fff;
+  --bs-modal-border-width: 1px;
+  --bs-modal-border-radius: 0.5rem;
+  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-modal-inner-border-radius: calc(0.5rem - 1px);
+  --bs-modal-header-padding: 2.8rem 2.8rem 1.2rem 2.8rem;
+  --bs-modal-header-border-color: var(--bs-border-color);
+  --bs-modal-header-border-width: 2px;
+  --bs-modal-title-line-height: 1.5;
+  --bs-modal-footer-gap: 0.5rem;
+  --bs-modal-footer-border-width: 1px;
+  top: 0;
+  left: 0;
+  z-index: var(--bs-modal-zindex);
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+.modal_lng{
+  max-width: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.modal_lng p{
+  font-size: 16px;
+  color: #acacac;
+  font-weight: 600;
+}
+.lang_select{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.lang_select .lang_btn{
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;  
+  font-size: 15px;
+  font-weight: 600;
+  color: #acacac;
+  border-radius: 4px;
+  border: 0.1px solid #acacac;
+}
+.lang_select .active,
+.lang_select .lang_btn:hover{
+  color: #fddd04;
+  background: #ffffcc;
+  border-color: #fddd04;
+  border: 2px solid #e2e1e1;
+}
+.margin_btm{
+  margin: 10px 0;
+  opacity: .4;
+  border-bottom: 0.1px solid #acacac;
+}
+
+/* start mobile menu 
+*****************************/
+.navbar-toggler-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_mobile_device .logo_wrap img{
+  max-width: 260px;
+}
+.logo_wrap_menu img{
+  max-width: 180px;
+}
+.mobile_sitbar_menu {
+  padding: 3px 8px;
+}
+.mobile_sitbar_menu span{
+  color: #929191;
+  margin-left: 30px;
+}
+.mobile_sitbar_menu:hover{
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+.sitbar_menu_game{
+  padding: 1px 8px;
+}
+.sitbar_menu_game span{
+  color: #929191;
+  margin-left: 30px;
+}
+.sitbar_menu_game:hover{
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+.menu_image{
+  max-width: 24px;
+}
+.badge_new{
+  position: relative;
+}
+.badge_new::after {
+  content: 'new';
+  position: absolute;
+  top: 10px;
+  left: 121px;
+  color: #fff;
+  padding: 0.8px 4px;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  background: rgb(4, 178, 43);
+}
+.badge_new_1{
+  position: relative;
+}
+.badge_new_1::before {
+  content: 'new';
+  position: absolute;
+  top: 10px;
+  left: 93px;
+  color: #fff;
+  padding: 0.8px 4px;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  background: rgb(4, 178, 43);
+}
+.header_mobile_device .offcanvas {
+  max-width: 70%;
+}
+.header_mobil_right .mobil_BDT{
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  background: rgb(218, 218, 218);
+}
+.header_mobil_right .mobil_BDT img{
+  width: 25px;
+}
+/* start footer css 
+*****************************/
+.main_footer{
+  padding: 10px 0 40px 0;
+  background: #ebebeb;
+}
+
+/* footer top area css 
+*****************************/
+.footer_top_area{
+  padding-top: 16px;
+  border-top: 1px solid rgba(0,0,0,.12);
+}
+.footer_menu_area{
+  max-width: 58.3333333333%;
+}
+.footer_menu_area ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 70px;
+}
+.footer_menu_area ul li a{
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: underline;
+}
+.footer_menu_area ul li a:hover{
+  color: #6d6d6d;
+}
+.footer_area .main_title{
+  color: #3a3a3a;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer_area .seo_text {
+  font-size: 14px;
+  color: #3e3f5f;
+  margin-bottom: 16px;
+}
+.footer-link-label{
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 5px 0px 0 0;
+  transition: all 360ms ease;
+}
+.footer_babu88:hover,
+.footer-icon:hover{
+  opacity: .8;
+}
+.footer_babu88{
+  max-width: 226px;
+}
+.footer_cr{
+  font-size: 16px;
+}
+/* start mobile bottom nav 
+********************************/
+.mobile_bottom_nav .container-fluid{
+  padding: 0;
+}
+.mobile_bottom_nav{
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.bottom_manu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomf_login_btn,
+.bottom_signup_btn{
+  width: 50%;
+}
+.signup_btn1{
+  width: 100%;
+  display: inline-block;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  background: #ffce01;
+  padding: 18px 10px;
+  text-align: center;
+}
+.signup_btn1:hover{
+  color: #232323;
+  background: #ffdd00;
+  background-position: 0 0;
+  box-shadow: 0 2px 2px 1px rgba(6,8,15,.1),0 4px 4px 1px rgba(6,8,15,.1),0 8px 8px 1px rgba(6,8,15,.1),0 16px 16px 1px rgba(6,8,15,.1),0 32px 32px 1px rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+}
+.login_btn1{
+  width: 100%;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background: #0066d1;
+  text-shadow: 0 1px 3px #c7941d;
+  padding: 18px 10px;
+  text-align: center;
+}
+.login_btn1:hover{
+  color: #ffffff;
+  background: #005abb;
+  background-position: 0 0;
+  box-shadow: 0 2px 2px 1px rgba(6,8,15,.1),0 4px 4px 1px rgba(6,8,15,.1),0 8px 8px 1px rgba(6,8,15,.1),0 16px 16px 1px rgba(6,8,15,.1),0 32px 32px 1px rgba(6,8,15,.1),inset 0 0 3px 0#ffdd8f;
+}
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
+/* start  css 
+*****************************/
