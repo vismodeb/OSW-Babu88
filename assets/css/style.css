@@ -208,7 +208,7 @@ img {
 }
 
 /* modal register */
-.register .modal {
+.register_D .modal {
   --bs-modal-border-width: 60px;
   --bs-modal-border-radius: 4rem;
   --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
@@ -235,14 +235,14 @@ img {
 .modal_register .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border: 2px solid #ffeb3b;
+  border: 1px solid #ffeb3b;
   outline: 0;
   box-shadow: none;
 }
 .reg_btn{
   width: 100%;
   border: none;
-  padding: 7px;
+  padding: 10px;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
@@ -299,6 +299,17 @@ img {
 .modal_border_2{
   margin-top: 30px;
   border-bottom: 1.4px solid #afaeae;
+}
+.text_right{
+  display: flex;
+  justify-content: end;
+  color: #a9a8a8;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.text_right:hover{
+  color: #a9a8a8;
+  text-decoration: underline;
 }
 
 /********************** All modal End **********************/
