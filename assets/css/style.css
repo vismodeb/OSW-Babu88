@@ -207,6 +207,29 @@ img {
   border-bottom: 0.1px solid #acacac;
 }
 
+
+.language_select_contain img{
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.language_select_contain{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.lang_contain{
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid #000 !important;
+  box-shadow: none;
+  
+}
+
+
 /* modal register */
 .register_D .modal {
   --bs-modal-border-width: 60px;
