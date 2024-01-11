@@ -36,7 +36,7 @@
             <div class="header_top_right">
               <ul>
                 <li><button class="btn1 btn_login">প্রবেশ করুন</button></li>
-                <li><button class="btn1 btn_reg">নিবন্ধন করুন</button></li>
+                <li><button class="btn1 btn_reg" type="button" data-bs-toggle="modal" data-bs-target="#register">নিবন্ধন করুন</button></li>
                 <li><a type="button" data-bs-toggle="modal" data-bs-target="#language">
                   <img class="lg_img" src="assets/images/BDT.svg" alt="">
                 </a></li>
@@ -435,6 +435,56 @@
                 </div>
 
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Modal Register -->
+    <div class="register">
+      <div class="modal fade" id="register" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5 modal_heading" id="staticBackdropLabel">নিবন্ধন করুন</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              <!-- modal register -->
+              <div class="modal_register">
+                <form action="">
+                  <div class="form-group mb-3">
+                    <label for="exampleInputEmail1">ব্যবহারকারীর নাম *</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="এখানে পূরণ করুন">
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for="exampleInputPassword1">গোপন নম্বর *</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="এখানে পাসওয়ার্ড পূরণ করুন">
+                  </div>
+                  <div class="form-group mb-3">
+                    <label for="exampleInputPassword1">পাসওয়ার্ড নিশ্চিত করুন *</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="পাসওয়ার্ড নিশ্চিত করুন">
+                  </div>
+                  <div class="modal_btn mt-4">
+                    <button type="submit" class="reg_btn reg_col">পরবর্তী</button>
+                  </div>
+                  <div class="modal_nex">
+                    <span>1</span>
+                    <span>2</span>
+                    <span><i class="fa-solid fa-check icon"></i></span>
+                  </div>
+                  <div class="modal_border_2"></div>
+                  <div class="col col-12 mt-4">
+                    <label class="label_text_reg">ইতিমধ্যে একটি সদস্যপদ আছে?</label>
+                  </div>
+                  <div class="modal_btn">
+                    <button type="submit" class="reg_btn reg_col_1">পরবর্তী</button>
+                  </div>
+                </form>
+              </div>
+
             </div>
           </div>
         </div>

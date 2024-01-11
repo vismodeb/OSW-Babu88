@@ -108,7 +108,21 @@
     }
 }
 
-@media (max-width: 450px) {}
+@media (max-width: 450px) {
+    /* modal language */
+    .modal_lng p {
+        font-size: 12px;
+    }
+    .lang_select .lang_btn{
+        padding: 4px;
+        font-size: 12px;
+    }
+    /* modal register */
+    .register .modal {
+        --bs-modal-border-width: 18px;
+        --bs-modal-border-radius: 1.6rem;
+    }
+}
 
 @media (max-width: 367px) {
     /* start mobile menu */
