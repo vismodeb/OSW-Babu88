@@ -122,7 +122,10 @@ img {
   font-weight: 500;
   display: inline-block;
   border-radius: 6px;
-  transition: all 360ms ease; 
+  transition: all 360ms ease;
+}
+.header_menu li a .active{
+  border-bottom: 2px solid #fff;
 }
 .header_menu ul li a:hover{
   color: #fff;
@@ -142,6 +145,71 @@ img {
   padding: 7px 4px;
   border-radius: 9px;
 }
+/* mega menu */
+.mega_box{
+  position: absolute;
+  top: 134px;
+  left: 0;
+  width: 100%;
+  background: rgb(0 0 0 / 90%);
+  opacity: 0;
+  visibility: hidden;
+}
+.mega_box .content{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mega_box .single_item{
+  padding: 30px 56px 40px;
+}
+.single_item a:hover{
+  background: transparent !important;
+}
+.mega_links{
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.mega_links img {
+  max-width: 136px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.mega_box .single_item h2{
+  margin-top: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.mega_img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.mega_overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+.mega_links:hover .mega_overlay{
+  opacity: 1;
+}
+.header_menu li:hover .mega_box{
+  top: 144px;
+  opacity: 1;
+  visibility: visible;
+  transition: all .5s ease;
+}
+
 /********************** All modal Start **********************/
 /* start Desktop language
 *****************************/
