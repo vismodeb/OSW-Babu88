@@ -104,7 +104,7 @@ img {
 /* start header bottom css 
 *****************************/
 .header_bottom_area{
-  padding: 15px 0;
+  padding: 12px 0 2px;
   background: #000;
 }
 .header_menu{
@@ -116,16 +116,14 @@ img {
   gap: 2px 32px;
 }
 .header_menu li a{
-  padding: 6px 10px;
+  padding: 6px 10px 8px 10px;
   color: #fddd04;
   font-size: 18px;
   font-weight: 500;
   display: inline-block;
   border-radius: 6px;
   transition: all 360ms ease;
-}
-.header_menu li a .active{
-  border-bottom: 2px solid #fff;
+  /* border-bottom: 2px solid #9c9c9c1f; */
 }
 .header_menu ul li a:hover{
   color: #fff;
@@ -161,7 +159,7 @@ img {
   flex-wrap: wrap;
 }
 .mega_box .single_item{
-  padding: 30px 56px 40px;
+  padding: 26px 45px 30px;
 }
 .single_item a:hover{
   background: transparent !important;
@@ -172,7 +170,7 @@ img {
   overflow: hidden;
 }
 .mega_links img {
-  max-width: 136px;
+  max-width: 130px;
   text-align: center;
   border-radius: 50%;
   overflow: hidden;
@@ -204,13 +202,13 @@ img {
   opacity: 1;
 }
 .header_menu li:hover .mega_box{
-  top: 144px;
   opacity: 1;
   visibility: visible;
   transition: all .5s ease;
 }
 
 /********************** All modal Start **********************/
+
 /* start Desktop language
 *****************************/
 .modal_heading{
