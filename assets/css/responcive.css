@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 768px) {
+    .registration_mobil_footer{
+        display: none;
+    }
     /* start mobile menu */
     .header_mobile_device .logo_wrap img{
         max-width: 220px;
