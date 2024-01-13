@@ -109,6 +109,9 @@
         overflow-y: auto;
         outline: 0;
     }
+    .lang_contain {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 450px) {

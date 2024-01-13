@@ -238,11 +238,18 @@ img {
   font-weight: 400;
   color: #2e2e2ede;
 }
+.label_icon{
+  font-size: 20px;
+  opacity: 0.9;
+}
+.modal_register .label_color{
+  color: red;
+}
 .modal_register input{
-  margin-top: 2px;
   font-size: 16px;
   outline: none;
   box-shadow: none;
+  border-radius: 10px;
   border: 1px solid #3b3b3b;
 }
 .modal_register input::placeholder{
