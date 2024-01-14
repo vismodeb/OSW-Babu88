@@ -31,6 +31,10 @@
     .footer_babu88 {
         max-width: 200px;
     }
+    /* Banner slider Swiper css */
+    .banner_mobile_slider{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -102,6 +106,28 @@
     }
     .lang_contain {
         font-size: 14px;
+    }
+    /* marquee banner */
+    .marquee_banner {
+        padding: 3px 0;
+        font-size: 12px;
+        font-weight: 500;
+        width: 1900px;
+    }
+    @keyframes bannermove{
+        0% {
+          transform: translateX(10%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+    }
+    /* start banner mobil slider Swiper css */
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        font-size: 24px;
+        color: white;
+        font-weight: 900;
     }
 }
 
