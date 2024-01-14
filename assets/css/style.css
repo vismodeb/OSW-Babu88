@@ -208,6 +208,7 @@ img {
   opacity: 1;
   visibility: visible;
   transition: all .5s ease;
+  z-index: 9;
 }
 
 /********************** All modal Start **********************/
