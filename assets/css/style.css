@@ -729,7 +729,42 @@ img {
 
 /* start navs tabs css 
 *****************************/
-
+.babu88_navs_tabs{}
+.navs_tabs_contain{
+  width: 96%;
+  margin: auto;
+}
+.navs_btn{
+  width: 14%;
+}
+.tab_single_content {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tab_layer_contan{
+  display: flex;
+  gap: 16px;
+  padding: 20px 20px 34px 20px;
+  flex-wrap: wrap;
+}
+.tab_box_1 img {
+  width: 100%;
+  max-width: 146px;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.tab_box_1 img:hover{
+  border-radius: 12px;
+  border: 4px solid rgb(255, 217, 0);
+}
+.tab_box_1 h4{
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
 
 /* start  css 
 *****************************/
